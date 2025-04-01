@@ -21,7 +21,8 @@ if not st.session_state.passed:
       else:
         st.error("Sorry, we have to reject your loan request.")
 
-#Step 2: Loan Calculator
+# Step 2: Loan Calculator
+# session_state is like a storing dictionary
 if st.session_state.passed:
    st.subheader("Step 2: Loan Payment Calcultor")
 
